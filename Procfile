@@ -1,1 +1,1 @@
-worker: bash DRAGONPRO-BOT
+worker: bash THANOS-PRO
