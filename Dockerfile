@@ -1,5 +1,5 @@
-#Pro Userbot Start Clonning 💫💥
-RUN git clone https://github.com/surturbot/THANOS-USERBOT.git /root/userbot
+#Pro Userbot Start Clonning ⚡♥️
+RUN git clone https://github.com/PROBOY-OP/PRO-USERBOT.git /root/userbot
 
 #working directory 
 WORKDIR /root/userbot
