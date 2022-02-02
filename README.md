@@ -2,7 +2,7 @@
 <b> ＴＨΛＮ♢Ｓ－ＰＲ♢ </b>
 </h1>
 
-[![ＴＨΛＮ♢Ｓ－ＰＲ♢](https://telegra.ph/file/c8fe5de96a7968636edc4.mp4)](https://github.com/PROBOY-OP/PRO-LEGENDBOT)
+[![ＴＨΛＮ♢Ｓ－ＰＲ♢](https://telegra.ph/file/bdf457aee34ed8791c150.jpg)](https://github.com/PROBOY-OP/PRO-LEGENDBOT)
 
 <h6 align="center">
   <b>⭐̲ Pro LegendBot Is One Of The Unique & Fastest & Smoothest Bot On Telegram Based on Telethon ⭐̲</b>
