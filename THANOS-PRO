@@ -26,18 +26,18 @@ _get_repolink () {
 _pro_bot () {
     local zippath
     zippath="THANOS.zip"
-    echo "  🔰 Downloading Pro LegendBot Source Code... 🔰"
+    echo "  💕 Downloading ＴＨΛＮ♢Ｓ－ＰＲ♢ Source Code... 💕"
     wget -q $(_get_repolink) -O "$zippath"
-    echo "  📍Unpacking Data...📍"
+    echo "  💓Unpacking Data...💓"
     THANOSPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
-    echo " 🏅 Download Complete Now Installing 🏅"
-    echo "  ✨ INSTALLING PRO LEGENDBOT ✨"
+    echo " 💔 Download Complete Now Installing 💔"
+    echo "  ⚡ INSTALLING ＴＨΛＮ♢Ｓ－ＰＲ♢ ⚡"
     rm -rf "$zippath"
     sleep 5
     cd $THANOSPATH
-    echo "    ⚜️Starting Pro Lêɠêɳ̃dẞøt⚜️     "
-    echo " ♥️ NOW WAIT 3 MIN INSTALLING ALL PLUGIN ♥️"
+    echo "    ⚡Starting ＴＨΛＮ♢Ｓ－ＰＲ♢⚡     "
+    echo " 💞 NOW WAIT 3 MIN INSTALLING ALL THANOS PLUGIN 💞"
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     python3 -m userbot
