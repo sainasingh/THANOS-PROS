@@ -8,7 +8,7 @@ _get_repolink () {
         echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA=" | base64 -d
     elif [[ $SURTURBOT_REPO == "THANOS-PRO" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA=" | base64 -d
     elif [[ $SURTURBOT_REPO =~ $regex ]]
     then
         if [[ $SURTURBOT_REPO_BRANCH ]]
@@ -18,7 +18,7 @@ _get_repolink () {
             echo "${SURTURBOT_REPO}/archive/THANOS.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA=" | base64 -d
     fi
 }
 
