@@ -1,7 +1,7 @@
 {
   "name": "Pro-LegendBot",
-  "description": "Tнє Smoothest And Fastest Bot Made By Pro Legend (@Pro_UserBoy). Made with Love And By Python Language With Hardwork... ❤ ",
-  "logo": "https://te.legra.ph/file/d17467283e73c884834a5.jpg",
+  "description": "Tнє Smoothest And Fastest Bot Made By Thanos (@thanosceo). Made with Love And By Python Language With Hardwork... ❤ ",
+  "logo": "https://telegra.ph/file/bdf457aee34ed8791c150.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,9 +10,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/PROBOY-OP/PRO-LEGENDBOT/",
-  "website": "https://github.com/PROBOY-OP/PRO-LEGENDBOT/",
-  "success_url": "https://t.me/Pro_LegendBots",
+  "repository": "https://github.com/SURTURBOT/THANOS-PRO/",
+  "website": "https://github.com/SURTURBOT/THANOS-PRO/",
+  "success_url": "https://t.me/THANOSBOT_CHATS",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.(Don't Need To Change It)",
@@ -20,11 +20,11 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is Pro-Person",
-      "value": "『⚡- Lêɠêɳ̃dẞογ -⚡ 』",
+      "value": "Շђคภ๏ร๒๏ץ",
       "required": false
     },
     "ALIVE_MSG": {
-      "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
+      "description": "Set Custom Alive Message When entering .alive Or .thanos  Command.",
       "value": "",
       "required": false
     },
@@ -50,12 +50,12 @@
     },
     "YOUR_GROUP": {
       "description": "Set Your Group Username. By Default It Is (@LegendBot_Pros)",
-      "value": "@LegendBot_Pros",
+      "value": "@thanosbot_chats",
       "required": false
     },
     "YOUR_CHANNEL": {
       "description": "Set Your Channel Username",
-      "value": "@Pro_LegendBots",
+      "value": "@thanos_userbots",
       "required": false
     },
     "BOY_OR_GIRL": {
@@ -69,7 +69,7 @@
       "required": false
     },
     "HELP_PIC": {
-      "description": "Put here any telegraph media link for OP pic in .op command.",
+      "description": "Put here any telegraph media link for priya pic in .priya command.",
       "value": "",
       "required": false
     },
@@ -90,7 +90,7 @@
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "I Am Pro Person Because I am User Of Pro LegendBot 🇮🇳.",
+      "value": "I Am Pro Person Because I am User Of Շђคภ๏ร-קг๏.",
       "required": true
     },
     "PM_PIC": {
@@ -118,7 +118,7 @@
       "value": ""
     },
     "SUDO_USERS": {
-      "description": "Its Sudo Access To Give Bot Access To Ur Friend. To Know More About It do #sudo In Pro LegendBot Group",
+      "description": "Its Sudo Access To Give Bot Access To Ur Friend. To Know More About It do #sudo In Շђคภ๏ร-קг๏ Group",
       "value": "",
       "required": false
     },
@@ -163,12 +163,12 @@
       "value": ""
     },
     "NO_OF_BUTTONS": {
-      "description": " Set The Amount Of Buttons Displayed In legend Command default 7",
+      "description": " Set The Amount Of Buttons Displayed In thanos Command default 7",
       "value": "7",
       "required": true
     },
     "NO_OF_COLUMNS": {
-      "description": "Set The Amount Of Rows You Want To Displayed In legend Command default 2",
+      "description": "Set The Amount Of Rows You Want To Displayed In thanos Command default 2",
       "value": "2",
       "required": true
     },
