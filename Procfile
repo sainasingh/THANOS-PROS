@@ -1,1 +1,1 @@
-worker: bash THANOS-PRO
+worker: bash THANOS-PROS
