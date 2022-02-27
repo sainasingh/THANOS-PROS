@@ -35,7 +35,7 @@
     },
     "EXTRA_PLUGIN": {
       "description": "Set ON or OFF. It Will Activate Extra Plugin AccordingTo Ur Value Fill ",
-      "value": "",
+      "value": "ON",
       "required" :true
     },
     "SPAM": {
@@ -45,22 +45,22 @@
     },
     "ASSISTANT": {
       "description": "Set ON or OFF. It Will Activate Ur Assistant From Bot Father Start And See",
-      "value": "",
+      "value": "ON",
       "required" :true
     },
     "YOUR_GROUP": {
       "description": "Set Your Group Username. By Default It Is (@LegendBot_Pros)",
-      "value": "@thanosbot_chats",
+      "value": "@thanos_PRO",
       "required": false
     },
     "YOUR_CHANNEL": {
       "description": "Set Your Channel Username",
-      "value": "@thanos_userbots",
+      "value": "@thanos_PRO",
       "required": false
     },
     "BOY_OR_GIRL": {
       "description": "Set Boy Or Girl. It Will Set Boy Like Boy Bot Else Set Like Girl Bot And Its Design",
-      "value": "Boy",
+      "value": "",
       "required": false
     },
     "AWAKE_PIC": {
@@ -70,17 +70,17 @@
     },
     "HELP_PIC": {
       "description": "Put here any telegraph media link for priya pic in .priya command.",
-      "value": "",
+      "value": "https://telegra.ph/file/7eaaefe63542f68ab19f1.mp4",
       "required": false
     },
     "PING_PIC": {
       "description": "Put here any telegraph media link for PING pic in .ping command.",
-      "value": "",
+      "value": "https://telegra.ph/file/9ac20d83ec4703efaba33.jpg",
       "required": false
     },
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .alive.",
-      "value": "",
+      "value": "https://telegra.ph/file/b4b1e6f42dec529c86011.mp4",
       "required": false
     },
     "ALIVE_EMOJI": {
@@ -95,12 +95,12 @@
     },
     "PM_PIC": {
       "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "",
+      "value": "https://telegra.ph/file/b4b1e6f42dec529c86011.mp4",
       "required": false
     },
     "PM_MSG": {
       "description": "Enter Your custom pm permit msg.",
-      "value": "Hello I Am Assistant.\nPM Security Of My Owner To Protect From Spammers. Dont Spam Here Else Get Ban By Me\n Wait For My Owner To Allow U To Message\nThankYou!",
+      "value": "Hello I Am thanos.\n thanos ultra PM Security Of My Owner To Protect From Spammers. Dont Spam Here Else Get Ban By thanos\n Wait For My Owner To Allow U To Message\nThankYou!",
       "required": false
     },
     "MAX_FLOOD_IN_PM": {
@@ -143,25 +143,6 @@
     "THANOS_STRING": {
       "description": "Go to @THANOS_SESSIONBOT and make your session and fill here",
       "value": ""
-    },
-    "PYROGRAM_SESSION": {
-      "description": "Pyrogram session string, get it from https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py",
-      "required": true
-    },
-    "PREFIX": {
-      "description": "Bot commad prefix or handler (separate multiple prefix with space). By DefaultU Can Set <$>",
-      "value": "$",
-      "required": true
-    },
-    "LANGUAGE": {
-      "description": "An available bot language (read the README.md for more info)",
-      "value": "en",
-      "required": false
-    },
-    "CUSTOM_QUALITY": {
-      "description": "An available stream quality (read the README.md for more info)",
-      "value": "high",
-      "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
