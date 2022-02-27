@@ -82,6 +82,7 @@ pyrogram
 pybase64>=0.4.0
 pyfiglet
 pylast
+py-tgcalls==0.8.2
 pymongo
 python-barcode
 python-dotenv
@@ -94,6 +95,7 @@ qrcode
 wand
 regex
 requests
+spotipy
 search-engine-parser>=0.4.2
 setuptools
 spamwatch
@@ -118,3 +120,4 @@ wget
 youtube-dl>=2021.02.04.1
 youtube-search-python>=1.3.2
 youtube-search>=1.1.1
+git+https://github.com/asmsafone/downloader
