@@ -144,6 +144,25 @@
       "description": "Go to @THANOS_SESSIONBOT and make your session and fill here",
       "value": ""
     },
+    "PYROGRAM_SESSION": {
+      "description": "Pyrogram session string, get it from https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Bot commad prefix or handler (separate multiple prefix with space). By DefaultU Can Set <$>",
+      "value": "$",
+      "required": true
+    },
+    "LANGUAGE": {
+      "description": "An available bot language (read the README.md for more info)",
+      "value": "en",
+      "required": false
+    },
+    "CUSTOM_QUALITY": {
+      "description": "An available stream quality (read the README.md for more info)",
+      "value": "high",
+      "required": false
+    },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
       "value": "",
