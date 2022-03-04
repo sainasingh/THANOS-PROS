@@ -2,7 +2,7 @@
 <b> Շђคภ๏ร-קг๏ </b>
 </h1>
 
-
+![THANOSPRO](https://user-images.githubusercontent.com/94896142/156706265-82c519db-5944-4db5-b51c-b3ab9e1c80b7.jpg)
 
 <h6 align="center">
   <b>💞 ·Շђคภ๏ร-קг๏ Is One Of The Unique & Fastest & Smoothest Bot On Telegram Based on Telethon💞</b>
@@ -17,4 +17,4 @@
 
 -----------
 
-![THANOSPRO](https://user-images.githubusercontent.com/94896142/156706265-82c519db-5944-4db5-b51c-b3ab9e1c80b7.jpg)
+
