@@ -10,6 +10,12 @@
 
 ---------
 
+## Telegram 🏪
+- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightred)]()
+- [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightred)](https://t.me/thanos_pro)
+
+------
+
 <h4> Deploy Շђคภ๏ร-קг๏ </h4>
 
 
