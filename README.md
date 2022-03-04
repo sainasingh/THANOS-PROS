@@ -42,5 +42,7 @@
 - ⚡RISHABH⚡ - ⚡PRIYA⚡ - ⚡LEGEND X⚡
 
 ------
-
+## OWNER 
+- ⚡RISHABH ⚡
+- ⚡PRIYA⚡
 
