@@ -39,7 +39,7 @@
 ## Credits
 
 
-- ⚡✨RISHABH✨⚡, ⚡✨PRIYA✨⚡, ⚡✨LEGEND X✨⚡
+- ⚡RISHABH⚡, ⚡PRIYA⚡, ⚡LEGEND X⚡
 
 ------
 
