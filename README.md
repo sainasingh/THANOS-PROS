@@ -2,7 +2,7 @@
 <b> Շђคภ๏ร-קг๏ </b>
 </h1>
 
-[![ＴＨΛＮ♢Ｓ－ＰＲ♢](https://telegra.ph/file/bdf457aee34ed8791c150.jpg)](https://github.com/PROBOY-OP/PRO-LEGENDBOT)
+
 
 <h6 align="center">
   <b>💞 ·Շђคภ๏ร-קг๏ Is One Of The Unique & Fastest & Smoothest Bot On Telegram Based on Telethon💞</b>
