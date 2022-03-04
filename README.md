@@ -10,7 +10,7 @@
 
 ---------
 
-## Telegram 🏪
+## 🔥Telegram🔥
 - [![Telegram Group](https://img.shields.io/badge/Telegram-Group-red)](https://t.me/+cJG1PbKtpPVmNDg5)
 - [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-red)](https://t.me/thanos_pro)
 
