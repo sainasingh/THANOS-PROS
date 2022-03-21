@@ -49,7 +49,7 @@
       "required" :true
     },
     "YOUR_GROUP": {
-      "description": "Set Your Group Username. By Default It Is (@LegendBot_Pros)",
+      "description": "Set Your Group Username. By Default It Is (@risuxp)",
       "value": "@thanos_PRO",
       "required": false
     },
