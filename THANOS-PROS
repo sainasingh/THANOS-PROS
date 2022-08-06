@@ -1,46 +1,67 @@
 
 
-_get_repolink () {
-    local regex
-    regex='(https?)://github.com/.+/.+'
-    if [[ $SURTURBOT_REPO == "THANOS-PRO" ]]
-    then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA=" | base64 -d
-    elif [[ $SURTURBOT_REPO == "THANOS-PRO" ]]
-    then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA=" | base64 -d
-    elif [[ $SURTURBOT_REPO =~ $regex ]]
-    then
-        if [[ $SURTURBOT_REPO_BRANCH ]]
-        then
-            echo "${SURTURBOT_REPO}/archive/${SURTURBOT_REPO_BRANCH}.zip"
-        else
-            echo "${SURTURBOT_REPO}/archive/THANOS.zip"
-        fi
-    else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA=" | base64 -d
-    fi
+#!/bin/bash
+
+
+_python_() {
+    python3${pVer%.*} -c "$1"
 }
 
+_HELLBOT_MAIN() {
+    $(_python_ 'from git import Repo
+import sys
 
-_pro_bot () {
+_UPSTREAM_ = "https://github.com/rishabh87yhtts/THANOS-PRO"
+_BRANCH_ = "master"
+
+repo = Repo.init()
+origin = repo.create_remote("temponame", _UPSTREAM_)
+origin.fetch()
+repo.create_head(_BRANCH_, origin.refs[_BRANCH_])
+repo.heads[_BRANCH_].checkout(True) ')
+}
+
+_hell_repo () {
+    local hrepo
+    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL3Jpc2hhYmg4N3lodHRzL1RIQU5PUy1QUk8=" | base64 -d`
+    echo "$rlink"
+}
+
+_hell_zip () {
+    echo "aHR0cHM6Ly9naXRodWIuY29tL3Jpc2hhYmg4N3lodHRzL1RIQU5PUy1QUk8vYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+}
+
+_HELLBOT_PLUG() {
+    local hrepo=$(_hell_repo)
+    $(_python_ 'from git import Repo
+import sys
+_UPSTREAM_ = "'$hrepo'"
+_BRANCH_ = "master"
+repo = Repo.init()
+origin = repo.create_remote("temponame", _UPSTREAM_)
+origin.fetch()
+repo.create_head(_BRANCH_, origin.refs[_BRANCH_])
+repo.heads[_BRANCH_].checkout(True) ')
+}
+
+_THANOS_bot () {
     local zippath
-    zippath="THANOS.zip"
+    zippath="THANOS-PRO.zip"
     echo "  💕 Downloading ＴＨΛＮ♢Ｓ－ＰＲ♢ Source Code... 💕"
     wget -q $(_get_repolink) -O "$zippath"
     echo "  💓Unpacking Data...💓"
-    THANOSPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    THANOS-PROPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo " 💔 Download Complete Now Installing 💔"
     echo "  ⚡ INSTALLING ＴＨΛＮ♢Ｓ－ＰＲ♢ ⚡"
     rm -rf "$zippath"
     sleep 5
-    cd $THANOSPATH
+    cd $THANOS-PROPATH
     echo "    ⚡Starting ＴＨΛＮ♢Ｓ－ＰＲ♢⚡     "
     echo " 💞 NOW WAIT 3 MIN INSTALLING ALL THANOS PLUGIN 💞"
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m thanospros
+    python3 -m THANOSPRO
 }
 
-_pro_bot
+_THANOS_bot
