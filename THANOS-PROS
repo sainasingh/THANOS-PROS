@@ -1,5 +1,3 @@
-
-
 #!/bin/bash
 
 
@@ -44,24 +42,25 @@ repo.create_head(_BRANCH_, origin.refs[_BRANCH_])
 repo.heads[_BRANCH_].checkout(True) ')
 }
 
-_THANOS_bot () {
-    local zippath
-    zippath="THANOS-PRO.zip"
+_starter () {
+    local THANOSpath
+    THANOSpath="THANOS-PRO.zip"
     echo "  💕 Downloading ＴＨΛＮ♢Ｓ－ＰＲ♢ Source Code... 💕"
-    wget -q $(_get_repolink) -O "$zippath"
+    wget -q $(_THANOS_zip) -O "$THANOSpath"
     echo "  💓Unpacking Data...💓"
-    THANOS-PROPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
-    unzip -qq "$zippath"
+    THANOSPATH=$(zipinfo -1 "$THANOSpath" | grep -v "/.");
+    unzip -qq "$THANOSpath"
     echo " 💔 Download Complete Now Installing 💔"
     echo "  ⚡ INSTALLING ＴＨΛＮ♢Ｓ－ＰＲ♢ ⚡"
-    rm -rf "$zippath"
-    sleep 5
-    cd $THANOS-PROPATH
-    echo "    ⚡Starting ＴＨΛＮ♢Ｓ－ＰＲ♢⚡     "
+    rm -rf "$THANOSpath"
+    # _THANOSBOT_MAIN
+    cd $THANOSPATH
+    echo "    ⚡Starting ＴＨΛＮ♢Ｓ－ＰＲ♢⚡
     echo " 💞 NOW WAIT 3 MIN INSTALLING ALL THANOS PLUGIN 💞"
-
+    # _THANOSBOT_PLUG
     python3 ../setup/updater.py ../requirements.txt requirements.txt
+    echo "•••⚡️ STARTING THANOSBOT ⚡️•••"
     python3 -m THANOSPRO
 }
 
-_THANOS_bot
+_starter
