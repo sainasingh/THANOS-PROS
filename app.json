@@ -100,7 +100,7 @@
     },
     "PM_MSG": {
       "description": "Enter Your custom pm permit msg.",
-      "value": "Hello I Am thanos.\n thanos ultra PM Security Of My Owner To Protect From Spammers. Dont Spam Here Else Get Ban By thanos\n Wait For My Owner To Allow U To Message\nThankYou!",
+      "value": "THANOSo I Am thanos.\n thanos ultra PM Security Of My Owner To Protect From Spammers. Dont Spam Here Else Get Ban By thanos\n Wait For My Owner To Allow U To Message\nThankYou!",
       "required": false
     },
     "MAX_FLOOD_IN_PM": {

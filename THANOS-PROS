@@ -7,7 +7,7 @@ _python_() {
     python3${pVer%.*} -c "$1"
 }
 
-_HELLBOT_MAIN() {
+_THANOSBOT_MAIN() {
     $(_python_ 'from git import Repo
 import sys
 
@@ -21,18 +21,18 @@ repo.create_head(_BRANCH_, origin.refs[_BRANCH_])
 repo.heads[_BRANCH_].checkout(True) ')
 }
 
-_hell_repo () {
+_THANOS_repo () {
     local hrepo
     hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL3Jpc2hhYmg4N3lodHRzL1RIQU5PUy1QUk8=" | base64 -d`
     echo "$rlink"
 }
 
-_hell_zip () {
+_THANOS_zip () {
     echo "aHR0cHM6Ly9naXRodWIuY29tL3Jpc2hhYmg4N3lodHRzL1RIQU5PUy1QUk8vYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
 }
 
-_HELLBOT_PLUG() {
-    local hrepo=$(_hell_repo)
+_THANOSBOT_PLUG() {
+    local hrepo=$(_THANOS_repo)
     $(_python_ 'from git import Repo
 import sys
 _UPSTREAM_ = "'$hrepo'"
