@@ -55,11 +55,11 @@ _starter () {
     rm -rf "$THANOSpath"
     # _THANOSBOT_MAIN
     cd $THANOSPATH
-    echo "    ⚡Starting ＴＨΛＮ♢Ｓ－ＰＲ♢⚡
+    echo "    ⚡Starting ＴＨΛＮ♢Ｓ－ＰＲ♢⚡ "
     echo " 💞 NOW WAIT 3 MIN INSTALLING ALL THANOS PLUGIN 💞"
     # _THANOSBOT_PLUG
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    echo "•••⚡️ STARTING THANOSBOT ⚡️•••"
+    echo " •••⚡️ STARTING THANOSBOT ⚡️••• "
     python3 -m THANOSPRO
 }
 
