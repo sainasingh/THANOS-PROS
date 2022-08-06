@@ -11,7 +11,7 @@
 ---------
 
 ## 🔥Telegram🔥
-- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-red)](https://t.me/+cJG1PbKtpPVmNDg5)
+- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-red)](https://t.me/thanospros)
 - [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-red)](https://t.me/thanos_pro)
 
 ------
@@ -49,4 +49,13 @@
 ## OWNER 
 - ⚡RISHABH ⚡
 - ⚡PRIYA⚡
+
+## assistant 
+- proboy
+
+## plugins credits
+- catbot
+- thanospros-v1
+- hellbot
+- legend bot
 
