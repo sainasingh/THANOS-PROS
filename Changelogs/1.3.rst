@@ -11,10 +11,12 @@ Changelog 📃 :
 
 * **Stability:** Thanos-pros is now more stable than ever. Less crash, zero downtime, smoother performance, etc.
 * **added new plugins:** 
-    - *Plugin name adultsahyri*
-    - *command adultsahyri*
-    - *Secured session generator*
-    - *New asyncio updater*
+    - *Plugin names*
+    - *cheemsbaazi*
+    - *goodnight*
+    - *iloveu*
+    - *thankyou*
+    - *adultsahyri*```.ashayri```
 
 
 
