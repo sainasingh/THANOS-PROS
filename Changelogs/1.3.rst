@@ -1,0 +1,39 @@
+========================
+THANOSPROS Version Update
+========================
+
++-------------------------+
+|      Version - 1.3      |
++-------------------------+
+
+Changelog 📃 :
+~~~~~~~~~~~~~~
+
+* **Stability:** Thanos-pros is now more stable than ever. Less crash, zero downtime, smoother performance, etc.
+* **added new plugins:** 
+    - *Plugin name adultsahyri*
+    - *command adultsahyri*
+    - *Secured session generator*
+    - *New asyncio updater*
+
+
+
+========================
+Thanospro Bug Fixes
+========================
+
++---------------------------+
+|      Version - 1.3        |
++---------------------------+
+
+Changelog 📃 :
+~~~~~~~~~~~~~~
+* **Bugs Fixes:**
+    - **auto bot:** after deploying thanos not changing bot name and bio but now all bugs fixed.
+    
+=====================================================================================
+
+:Regards: * `@thanosceo <https://t.me/thanosceo>`_
+
+By ~ `thanos-pro  { 🇮🇳 } <https://t.me/thanospross>`_
+=================================================
